@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "name": "servers1",
+      "type": "mao.spring_boot_loose_binding.config.MyConfig",
+      "sourceType": "mao.spring_boot_loose_binding.config.MyConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "servers1.ip-address",
+      "type": "java.lang.String",
+      "sourceType": "mao.spring_boot_loose_binding.config.MyConfig"
+    },
+    {
+      "name": "servers1.port",
+      "type": "java.lang.Integer",
+      "sourceType": "mao.spring_boot_loose_binding.config.MyConfig"
+    },
+    {
+      "name": "servers1.timeout",
+      "type": "java.lang.Long",
+      "sourceType": "mao.spring_boot_loose_binding.config.MyConfig"
+    }
+  ],
+  "hints": []
+}
