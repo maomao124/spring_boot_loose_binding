@@ -1,2 +1,12 @@
 2022-04-15 23:09:40.327  INFO 17956 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
 2022-04-15 23:09:40.338  INFO 17956 --- [main] m.s.SpringBootLooseBindingApplication    : Started SpringBootLooseBindingApplication in 1.184 seconds (JVM running for 1.616)
+2022-04-15 23:11:10.917  INFO 18196 --- [main] m.s.SpringBootLooseBindingApplication    : Starting SpringBootLooseBindingApplication using Java 16.0.2 on mao with PID 18196 (H:\程序\大三下期\spring_boot松散绑定\target\classes started by mao in H:\程序\大三下期\spring_boot松散绑定)
+2022-04-15 23:11:10.919 DEBUG 18196 --- [main] m.s.SpringBootLooseBindingApplication    : Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-04-15 23:11:10.920  INFO 18196 --- [main] m.s.SpringBootLooseBindingApplication    : The following 1 profile is active: "dev"
+2022-04-15 23:11:11.490  INFO 18196 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-15 23:11:11.497  INFO 18196 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-15 23:11:11.497  INFO 18196 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-15 23:11:11.570  INFO 18196 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-15 23:11:11.570  INFO 18196 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 612 ms
+2022-04-15 23:11:11.807  INFO 18196 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-15 23:11:11.816  INFO 18196 --- [main] m.s.SpringBootLooseBindingApplication    : Started SpringBootLooseBindingApplication in 1.21 seconds (JVM running for 1.646)
