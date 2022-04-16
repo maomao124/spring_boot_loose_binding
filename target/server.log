@@ -1,0 +1,10 @@
+2022-04-16 12:32:40.464  INFO 13816 --- [main] m.s.SpringBootLooseBindingApplication    : Starting SpringBootLooseBindingApplication v0.0.1-SNAPSHOT using Java 16.0.2 on mao with PID 13816 (H:\程序\大三下期\spring_boot松散绑定\target\spring_boot_loose_binding-0.0.1-SNAPSHOT.jar started by mao in H:\程序\大三下期\spring_boot松散绑定\target)
+2022-04-16 12:32:40.467 DEBUG 13816 --- [main] m.s.SpringBootLooseBindingApplication    : Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-04-16 12:32:40.468  INFO 13816 --- [main] m.s.SpringBootLooseBindingApplication    : The following 1 profile is active: "dev"
+2022-04-16 12:32:41.580  INFO 13816 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-16 12:32:41.591  INFO 13816 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-16 12:32:41.591  INFO 13816 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-16 12:32:41.666  INFO 13816 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-16 12:32:41.667  INFO 13816 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1130 ms
+2022-04-16 12:32:42.050  INFO 13816 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-16 12:32:42.061  INFO 13816 --- [main] m.s.SpringBootLooseBindingApplication    : Started SpringBootLooseBindingApplication in 2.144 seconds (JVM running for 2.527)

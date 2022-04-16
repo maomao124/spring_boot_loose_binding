@@ -20,17 +20,20 @@
     {
       "name": "servers1.port",
       "type": "java.lang.Integer",
-      "sourceType": "mao.spring_boot_loose_binding.config.MyConfig"
+      "sourceType": "mao.spring_boot_loose_binding.config.MyConfig",
+      "defaultValue": 0
     },
     {
       "name": "servers1.timeout",
       "type": "java.lang.Long",
-      "sourceType": "mao.spring_boot_loose_binding.config.MyConfig"
+      "sourceType": "mao.spring_boot_loose_binding.config.MyConfig",
+      "defaultValue": 0
     },
     {
       "name": "student.age",
       "type": "java.lang.Integer",
-      "sourceType": "mao.spring_boot_loose_binding.data.Student"
+      "sourceType": "mao.spring_boot_loose_binding.data.Student",
+      "defaultValue": 0
     },
     {
       "name": "student.list",
@@ -45,7 +48,8 @@
     {
       "name": "student.no1",
       "type": "java.lang.Long",
-      "sourceType": "mao.spring_boot_loose_binding.data.Student"
+      "sourceType": "mao.spring_boot_loose_binding.data.Student",
+      "defaultValue": 0
     },
     {
       "name": "student.sex",
