@@ -1,15 +1,14 @@
-
 #多环境开发---单文件
 spring:
   profiles:
     # 当前环境
     active: dev
 
-#-----通用环境---------------------------------------------------------
+  #-----通用环境---------------------------------------------------------
 
-#  # 导入jdbc.properties文件
-#  config:
-#    import: classpath:jdbc.properties
+  #  # 导入jdbc.properties文件
+  #  config:
+  #    import: classpath:jdbc.properties
 
 
 
@@ -21,22 +20,22 @@ spring:
       prefix:
       suffix: .html
 
-# mybatis配置
-#mybatis:
-# mybatis 映射文件位置，string数组
-# mapper-locations: mapper/StudentMapper.xml
-# mybatis导入配置文件
-# config-location: mybatis-config.xml
+  # mybatis配置
+  #mybatis:
+  # mybatis 映射文件位置，string数组
+  # mapper-locations: mapper/StudentMapper.xml
+  # mybatis导入配置文件
+  # config-location: mybatis-config.xml
 
-# mybatis-plus配置
-#mybatis-plus:
-# mybatis-plus 映射文件位置，string数组,默认mapper/**/*.xml
-# mapper-locations: mapper/**/*.xml
-# mybatis-plus导入配置文件
-# config-location: mybatis-config.xml
+  # mybatis-plus配置
+  #mybatis-plus:
+  # mybatis-plus 映射文件位置，string数组,默认mapper/**/*.xml
+  # mapper-locations: mapper/**/*.xml
+  # mybatis-plus导入配置文件
+  # config-location: mybatis-config.xml
 
 
-#server:
+  #server:
   #配置端口号
   #port: 8080
   # 配置上下文路径
@@ -61,10 +60,20 @@ spring:
 #  port: 2345
 #  timeout: -1
 
-servers:
+servers1:
   IP_ADDRESS: 192.168.1.4
   port: 2345
   timeout: -1
+
+
+student:
+  no1: 455
+  name: "张三"
+  sex: '男'
+  age: 18
+  list: [ '测试1','测试2','测试3','测试4' ]
+
+
 
 ---
 #------开发环境--------------------------------------------------------
@@ -105,9 +114,9 @@ spring:
 
 # 设置日志级别，root表示根节点，即整体应用日志级别
 logging:
- # 日志输出到文件的文件名
+  # 日志输出到文件的文件名
   file:
-     name: server.log
+    name: server.log
   # 字符集
   charset:
     file: UTF-8
@@ -120,14 +129,14 @@ logging:
       file-name-pattern: server_log-%d{yyyy/MM月/dd日/}%i.log
   # 设置日志组
   group:
-  # 自定义组名，设置当前组中所包含的包
+    # 自定义组名，设置当前组中所包含的包
     mao_pro: mao
   level:
     root: info
     # 为对应组设置日志级别
     mao_pro: debug
     # 日志输出格式
-# pattern:
+  # pattern:
   # console: "%d %clr(%p) --- [%16t] %clr(%-40.40c){cyan} : %m %n"
 
 

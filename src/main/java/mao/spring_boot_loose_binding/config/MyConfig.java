@@ -1,5 +1,6 @@
 package mao.spring_boot_loose_binding.config;
 
+
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
@@ -29,6 +30,7 @@ public class MyConfig
     private String ipAddress;
     private int port;
     private long timeout;
+
 
     public String getIpAddress()
     {

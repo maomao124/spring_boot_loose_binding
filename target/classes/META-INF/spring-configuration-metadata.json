@@ -4,6 +4,11 @@
       "name": "servers1",
       "type": "mao.spring_boot_loose_binding.config.MyConfig",
       "sourceType": "mao.spring_boot_loose_binding.config.MyConfig"
+    },
+    {
+      "name": "student",
+      "type": "mao.spring_boot_loose_binding.data.Student",
+      "sourceType": "mao.spring_boot_loose_binding.data.Student"
     }
   ],
   "properties": [
@@ -21,6 +26,31 @@
       "name": "servers1.timeout",
       "type": "java.lang.Long",
       "sourceType": "mao.spring_boot_loose_binding.config.MyConfig"
+    },
+    {
+      "name": "student.age",
+      "type": "java.lang.Integer",
+      "sourceType": "mao.spring_boot_loose_binding.data.Student"
+    },
+    {
+      "name": "student.list",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "mao.spring_boot_loose_binding.data.Student"
+    },
+    {
+      "name": "student.name",
+      "type": "java.lang.String",
+      "sourceType": "mao.spring_boot_loose_binding.data.Student"
+    },
+    {
+      "name": "student.no1",
+      "type": "java.lang.Long",
+      "sourceType": "mao.spring_boot_loose_binding.data.Student"
+    },
+    {
+      "name": "student.sex",
+      "type": "java.lang.String",
+      "sourceType": "mao.spring_boot_loose_binding.data.Student"
     }
   ],
   "hints": []
